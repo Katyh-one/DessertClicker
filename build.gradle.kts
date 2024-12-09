@@ -13,6 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+buildscript {
+
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.1.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10")
+    }
+}
+
+val composeCompilerVersion = "1.5.3" //  Compose UI version
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
